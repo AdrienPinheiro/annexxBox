@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    img{
+        height: 80px;
+        padding-left: 25px;
+    }
+    .navHeader{
+        display: flex;
+        .search{
+            height: 40px;
+            width: 400px;
+            border-radius: 10px;
+        }
+        .menuAccount{
+            text-align: center;
+            align-self: center;
+            padding: 0 25px;
+            p{
+                padding-top: 5px;
+            }
+        }
+    }
+}

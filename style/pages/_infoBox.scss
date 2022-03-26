@@ -1,0 +1,15 @@
+.infoLocalisationBox{
+    background-color: #99330025;
+    h3{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .row{
+        display: flex;
+        justify-content: space-around;
+        padding: 50px;
+        li{
+            padding-top: 15px;
+        }
+    }
+}

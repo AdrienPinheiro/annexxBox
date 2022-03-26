@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <link rel="stylesheet" href="./css/index.min.css"/>
+
+        <script src="https://kit.fontawesome.com/49dac82f1e.js" crossorigin="anonymous"></script>
+        <script src="js/index.js" defer></script>
+
+        <title>AnnexxBox</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./img/annexx-mon-box-securise.svg"/>
+            <div class="navHeader">
+                <input 
+                    id="search" 
+                    class="search" 
+                    placeholder="Rechercher la disponibilité dans ma ville" 
+                    type="text" 
+                    name="search"
+                    onkeyup="searchBox()"
+                    onclick="searchBox()"/>
+                <div class="menuAccount">
+                    <i class="fas fa-user"></i>
+                    <p>Mon compte</p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="resultSearch">
+
+            </section>
+            <section class="infoLocalisationBox">
+                <h3>Quelques-un de nos centres de Box de stockage</h3>
+                <div class="row">
+                    <ul>
+                        <li>Lyon</li>
+                        <li><a href="#">Orléans</a></li>
+                        <li><a href="#">Bordeaux</a></li>
+                        <li><a href="#">Perpignan</a></li>
+                        <li><a href="#">Nice</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Saint-Etienne</a></li>
+                        <li><a href="#">Bourges</a></li>
+                        <li><a href="#">Pau</a></li>
+                        <li onclick="searchBox('Toulouse')">Toulouse</li>
+                        <li onclick="searchBox('Marseille')">Marseille</li>
+
+                    </ul>
+                    <ul>
+                        <li><a href="#">Brest</a></li>
+                        <li><a href="#">Blois</a></li>
+                        <li><a href="#">Poitiers</a></li>
+                        <li><a href="#">Nantes</a></li>
+                        <li><a href="#">Toulon</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Tours</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Montpellier</a></li>
+                        <li><a href="#">Cholet</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+    </body>
+</html>
