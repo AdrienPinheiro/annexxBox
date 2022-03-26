@@ -98,7 +98,145 @@ header .navHeader .menuAccount p {
 }
 
 .resultSearch {
-  height: 350px;
+  min-height: 354px;
+}
+
+.resultSearch .cardInfoRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 150px 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultSearch .cardInfoRow .cardInfo {
+  text-align: center;
+  padding-right: 100px;
+}
+
+.resultSearch .cardInfoRow .cardInfo img {
+  padding-bottom: 25px;
+  height: 80px;
+}
+
+.resultSearch .infoAnnexx h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.resultSearch .infoAnnexx .cardDescriptionRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+  padding-bottom: 70px;
+  width: 16.66%;
+}
+
+.resultSearch .infoAnnexx .cardDescriptionRow .cardDescription h3 {
+  padding-bottom: 25px;
+}
+
+.resultSearch .notFound {
+  padding-top: 5%;
+  text-align: center;
+}
+
+.resultSearch .contactPhone {
+  padding: 15px 0 5% 0;
+  text-align: center;
+}
+
+.resultSearch .otherBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultSearch .otherBox i {
+  padding: 25px 0;
+  font-size: 30px;
+}
+
+.resultSearch .topResultSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultSearch .topResultSearch h3 {
+  text-align: center;
+  padding: 50px 0;
+  width: 75%;
+}
+
+.resultSearch .topResultSearch p {
+  padding-bottom: 10px;
+  width: 75%;
+}
+
+.resultSearch .listBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resultSearch .listBox .cardBox {
+  padding: 15px;
+  background-color: #FFF;
+  width: 16.66%;
+  margin: 50px 1% 0 1%;
+}
+
+.resultSearch .listBox .cardBox h4 {
+  padding: 15px 0;
+}
+
+.resultSearch .listBox .cardBox p {
+  padding-bottom: 10px;
+}
+
+.resultSearch .listBox .cardBox .address {
+  width: 50%;
+  padding-left: 15px;
+}
+
+.resultSearch .listBox .cardBox .phone {
+  padding: 15px 0 10px 0;
+}
+
+.resultSearch .listBox .cardBox .hourly {
+  padding-left: 15px;
+  font-size: 15px;
 }
 
 .infoLocalisationBox {
@@ -121,10 +259,27 @@ header .navHeader .menuAccount p {
 
 .infoLocalisationBox .row li {
   padding-top: 15px;
+  cursor: pointer;
 }
 
 footer {
-  height: 200px;
   background-color: #CD4B2080;
+}
+
+footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer h2 {
+  font-size: 25px;
+}
+
+footer li {
+  padding-top: 20px;
 }
 /*# sourceMappingURL=index.css.map */

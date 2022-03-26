@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79" height="78" viewBox="0 0 79 78">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <path fill="#093364" fill-opacity=".598" d="M2 70.802C2 72.569 3.393 74 5.114 74h67.772C74.606 74 76 72.569 76 70.802V64c-9.697 4.258-21.945 5.745-37 5.745-13.114 0-28.12-1.026-37-5.745v6.802z" transform="translate(-574 -885) translate(257 746) translate(268 141) translate(50)"/>
+                        <path stroke="#65C2E1" stroke-width="4" d="M74.655 74h-29.31C44.602 74 44 73.398 44 72.65V43.345c0-.743.602-1.345 1.345-1.345h29.31c.743 0 1.345.602 1.345 1.345V72.65c0 .748-.602 1.35-1.345 1.35z" transform="translate(-574 -885) translate(257 746) translate(268 141) translate(50)"/>
+                        <path stroke="#65C2E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M2 9.419V3.11C2 1.393 3.393 0 5.114 0h67.772C74.606 0 76 1.393 76 3.11v67.776C76 72.606 74.607 74 72.886 74H5.114C3.394 74 2 72.607 2 70.886V24.158" transform="translate(-574 -885) translate(257 746) translate(268 141) translate(50)"/>
+                        <path stroke="#65C2E1" stroke-width="4" d="M73.688 74H23.315C22.035 74 21 72.962 21 71.685V21.309C21 20.035 22.035 19 23.315 19h50.373C74.965 19 76 20.035 76 21.31v50.375C76 72.962 74.965 74 73.688 74z" transform="translate(-574 -885) translate(257 746) translate(268 141) translate(50)"/>
+                        <path stroke="#65C2E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M1.5 15L1.5 19" transform="translate(-574 -885) translate(257 746) translate(268 141) translate(50)"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

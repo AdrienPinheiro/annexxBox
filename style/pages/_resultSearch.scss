@@ -1,3 +1,94 @@
 .resultSearch{
-    height: 350px;
+    min-height: 354px;
+    .cardInfoRow{
+        display: flex;
+        padding: 150px 0;
+        justify-content: center;
+        align-items: center;
+        .cardInfo{
+            text-align: center;
+            padding-right: 100px;
+            img{
+                padding-bottom: 25px;
+                height: 80px;
+            }
+        }
+    }
+    .infoAnnexx{
+        h2{
+            text-align: center;
+            padding-bottom: 50px;
+        }
+        .cardDescriptionRow{
+            display: flex;
+            justify-content: space-around;
+            .cardDescription{
+                padding-bottom: 70px;
+                width: $col2;
+                h3{
+                    padding-bottom: 25px;
+                }
+            }
+        }
+    }
+    .notFound{
+        padding-top: 5%;
+        text-align: center;
+    }
+    .contactPhone{
+        padding: 15px 0 5% 0;
+        text-align: center;
+    }
+    .otherBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        i{
+            padding: 25px 0;
+            font-size: 30px;
+        }
+    }
+    .topResultSearch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            text-align: center;
+            padding: 50px 0;
+            width: $col9;
+        }
+        p{
+            padding-bottom: 10px;
+            width: $col9;
+        }            
+    }
+    .listBox{
+        display: flex;
+        padding-bottom: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        .cardBox{
+            padding: 15px;
+            background-color: #FFF;
+            width: $col2;
+            margin: 50px 1% 0 1%;
+            h4{
+                padding: 15px 0;
+            }
+            p{
+                padding-bottom: 10px;
+            }
+            .address{
+                width: $col6;
+                padding-left: 15px;
+            }
+            .phone{
+                padding: 15px 0 10px 0;
+            }
+            .hourly{
+                padding-left: 15px;
+                font-size: 15px;
+            }
+        }
+    }
 }

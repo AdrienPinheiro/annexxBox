@@ -1,50 +1,62 @@
 [{
     "city" : "Toulouse",
     "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "address" : "2 Avenue des Crêtes </br> 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "toulousain",
     "id" : "1"
 },
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Nord-Est",
-    "address" : "243 Route d'Albi 31200 TOULOUSE",
+    "address" : "243 Route d'Albi </br> 31200 TOULOUSE",
     "phone" : "05 61 11 03 53",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "toulousain",
     "id" : "2"
 },
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Université",
-    "address" : "70 Rue Jacques Babinet 31100 TOULOUSE",
+    "address" : "70 Rue Jacques Babinet </br> 31100 TOULOUSE",
     "phone" : "05 34 60 31 10",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "toulousain",
     "id" : "3"
 },
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Ouest",
-    "address" : "4 Rue de Caulet 31300 TOULOUSE",
+    "address" : "4 Rue de Caulet </br> 31300 TOULOUSE",
     "phone" : "05 34 55 19 18",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "toulousain",
     "id" : "4"
 },
 
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
+    "localisation": "Brest Sud",
     "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "5"
 },
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
-    "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "localisation": "Brest Nord-Est",
+    "address" : "60 Rue de Salanguis 29490 GUIPAVAS",
+    "phone" : "06 18 23 62 20",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "6"
 },
 {
@@ -52,7 +64,9 @@
     "localisation": "Toulouse Sud",
     "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "7"
 },
 {
@@ -60,7 +74,9 @@
     "localisation": "Toulouse Sud",
     "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "8"
 },
 {
@@ -68,7 +84,9 @@
     "localisation": "Toulouse Sud",
     "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "9"
 },
 {
@@ -76,7 +94,9 @@
     "localisation": "Toulouse Sud",
     "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
-    "hourly" : "",
+    "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
+    "hourlyWeekEnd" : "Samedi : 9h - 13h",
+    "resident" : "brestois",
     "id" : "10"
 }]
    

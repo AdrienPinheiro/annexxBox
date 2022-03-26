@@ -16,7 +16,7 @@
 
     <body>
         <header>
-            <img src="./img/annexx-mon-box-securise.svg"/>
+            <a href="/"><img src="./img/annexx-mon-box-securise.svg"/></a>
             <div class="navHeader">
                 <input 
                     id="search" 
@@ -34,45 +34,154 @@
         </header>
         <main>
             <section class="resultSearch">
+                <div class="cardInfoRow">
+                    <div class="cardInfo">
+                        <img src="./img/picto1.svg"/>
+                        <p>Je choisis mon Box Annexx</p>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="./img/picto2.svg"/>
+                        <p>Je choisi la taille de mon Box</p>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="./img/picto3.svg"/>
+                        <p>J'ai la possibilité de faire un devis</p>
+                    </div>
+                    <div class="cardInfo">
+                        <img src="./img/picto4.svg"/>
+                        <p>J'accède à mon Box quand je veux</p>
+                    </div>
+                </div>
+                <div class="infoAnnexx">
+                    <h2>POURQUOI CHOISIR ANNEXX ?</h2>
+                    <div class="cardDescriptionRow">
+                        <div class="cardDescription">
+                            <h3>Annexx: la solution de garde meuble idéale</h3>
+                            <p>
+                                Mieux qu'un <strong>garde meuble</strong>, un entrepôt, un conteneur, des containers ou un garage particulier, 
+                                nos bâtiments de <strong>self-stockage</strong> ultramodernes sont la réponse idéale pour gagner de l'espace, 
+                                entreposer, ranger, stocker, déménager ou conserver dans un box à louer, vos affaires de quelques 
+                                jours à quelques années en toute sérénité. Nos sites et nos boxes sont sécurisés avec les toutes 
+                                dernières technologies. Vous pouvez accéder à votre garde-meuble ou espace de stockage tous les 
+                                jours en illimité. Nous disposons de nombreux centres et espaces de stockage dans toute la France 
+                                afin de vous offrir la possibilité de louer un garde meuble en toute sécurité au plus proche de vous. 
+                                Découvrez ACE™ les Services gagnants d'Annexx.
+                            </p>
+                        </div>
+                        <div class="cardDescription">
+                            <h3>Un service de garde meubles sur-mesure et de qualité</h3>
+                            <p>
+                                <strong>Louer un box pas cher</strong> dans l'un de nos centres de stockage sécurisé permet de répondre à votre 
+                                besoin de gain d'espace : stocker des affaires le temps d'un déménagement, ranger des objets encombrants 
+                                ou encore protéger des biens lors de travaux. Parce que les raisons de louer un espace de rangement sont multiples, 
+                                nos solutions le sont également. Surveillé (sous vidéo surveillance), de taille variable et disponible au meilleur tarif,
+                                chaque <strong>garde meuble</strong> Annexx est un gage de tranquillité et de sécurité. Vous avez sûrement vu à la télévision des sites de
+                                self storage dans "Storage Wars". Annexx vous propose la version plus moderne de ces nouveaux garde meubles, pour particuliers
+                                et professionnels.
+                            </p>
+                        </div>
+                        <div class="cardDescription">
+                            <h3>Location box de stockage pour tous vos besoins</h3>
+                            <p>
+                                En plus de proposer un garde-meuble aux particuliers, nous avons une large palette de services et solution de stockage pour les entreprises :
+                                <strong>Location d'entrepôt</strong>, domiciliation, réceptions et expéditions de marchandises, location de salles de réunion, espaces de coworking, 
+                                Wifi gratuit... Nous offrons ces services d'entreposage aux meilleurs prix du marché... Le sourire en plus ! 
+                                Profitez de nos offres dans tous nos centres. Vous pourrez bénéficier en plus de la garantie du meilleur prix ! 
+                                Si après avoir réservé un de nos boxes dans un de nos garde meuble vous constatez un tarif inférieur pour une prestation identique et aux 
+                                caractéristiques équivalentes, nous ajusterons votre loyer aux mêmes conditions tarifaires.
+                            </p>
+                        </div>
+                        <div class="cardDescription">
+                            <h3>Vente de cartons et matériel de déménagement</h3>
+                            <p>
+                                Annexx propose une gamme professionnelle de matériel et cartons de déménagement. Nos produits sont spécialement conçus pour transporter 
+                                ET stocker toutes vos affaires. Découvrez l'ensemble de nos produits dans nos Agences partout en France. Vous pouvez aussi commander les 
+                                fournitures de déménagements dont vous avez besoin sur notre boutique en ligne et venir les récupérer 1 heure après dans l'Agence Annexx de 
+                                votre choix.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
             </section>
             <section class="infoLocalisationBox">
                 <h3>Quelques-un de nos centres de Box de stockage</h3>
                 <div class="row">
                     <ul>
-                        <li>Lyon</li>
-                        <li><a href="#">Orléans</a></li>
-                        <li><a href="#">Bordeaux</a></li>
-                        <li><a href="#">Perpignan</a></li>
-                        <li><a href="#">Nice</a></li>
+                        <li onclick="searchBox('Lyon')">Lyon</li>
+                        <li onclick="searchBox('Orléans')">Orléans</li>
+                        <li onclick="searchBox('Bordeaux')">Bordeaux</li>
+                        <li onclick="searchBox('Perpignan')">Perpignan</li>
+                        <li onclick="searchBox('Nice')">Nice</li>
                     </ul>
                     <ul>
-                        <li><a href="#">Saint-Etienne</a></li>
-                        <li><a href="#">Bourges</a></li>
-                        <li><a href="#">Pau</a></li>
-                        <li onclick="searchBox('Toulouse')">Toulouse</li>
+                        <li onclick="searchBox('Saint-Etienne')">Saint-Etienne</li>
+                        <li onclick="searchBox('Bourges')">Bourges</li>
+                        <li onclick="searchBox('Pau')">Pau</li>
+                        <li onclick="searchBox('Toulouse')"><strong>Toulouse</strong></li>
                         <li onclick="searchBox('Marseille')">Marseille</li>
 
                     </ul>
                     <ul>
-                        <li><a href="#">Brest</a></li>
-                        <li><a href="#">Blois</a></li>
-                        <li><a href="#">Poitiers</a></li>
-                        <li><a href="#">Nantes</a></li>
-                        <li><a href="#">Toulon</a></li>
+                        <li onclick="searchBox('Brest')"><strong>Brest</strong></li>
+                        <li onclick="searchBox('Blois')">Blois</li>
+                        <li onclick="searchBox('Poitiers')">Poitiers</li>
+                        <li onclick="searchBox('Nantes')">Nantes</li>
+                        <li onclick="searchBox('Toulon')">Toulon</li>
                     </ul>
                     <ul>
-                        <li><a href="#">Tours</a></li>
-                        <li><a href="#">Paris</a></li>
-                        <li><a href="#">Montpellier</a></li>
-                        <li><a href="#">Cholet</a></li>
+                        <li onclick="searchBox('Tours')">Tours</li>
+                        <li onclick="searchBox('Paris')">Paris</li>
+                        <li onclick="searchBox('Montpellier')">Montpellier</li>
+                        <li onclick="searchBox('Cholet')">Cholet</li>
                     </ul>
                 </div>
             </section>
         </main>
 
         <footer>
-
+            <div class="row">
+                <div>
+                    <h2>Nos services</h2>
+                    <ul>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Simulateur</a></li>
+                        <li><a href="">Visites virtuelles</a></li>
+                        <li><a href="">Foires aux questions</a></li>
+                        <li><a href="">Boutique du déménagement</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>A propos</h2>
+                    <ul>
+                        <li><a href="">Partenaires</a></li>
+                        <li><a href="">Presse</a></li>
+                        <li><a href="">Conditions générales</a></li>
+                        <li><a href="">Mentions Légales</a></li>
+                        <li><a href="">Politique de confidentialité</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Pour les professionnels</h2>
+                    <ul>
+                        <li><a href="">Stockage multisites</a></li>
+                        <li><a href="">Salle de réunion</a></li>
+                        <li><a href="">Blog professionnel</a></li>
+                        <li><a href="">Domiciliation</a></li>
+                        <li><a href="">Box professionnel</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Contactez-nous</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/annexx.mon.box/" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+                        <li><a href="https://instagram.com/annexx_box" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/annexx-business-service/?originalSubdomain=fr" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+                        <li><a href="https://twitter.com/selfstockage" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href="./html/english.html"><img src="./img/englishFlag.gif"/>English web site</a></li>
+                    </ul>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
