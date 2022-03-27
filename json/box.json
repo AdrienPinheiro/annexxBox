@@ -1,7 +1,7 @@
 [{
     "city" : "Toulouse",
     "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes </br> 31520 RAMONVILLE St AGNE",
+    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -11,7 +11,7 @@
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Nord-Est",
-    "address" : "243 Route d'Albi </br> 31200 TOULOUSE",
+    "address" : "243 Route d'Albi 31200 TOULOUSE",
     "phone" : "05 61 11 03 53",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -21,7 +21,7 @@
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Université",
-    "address" : "70 Rue Jacques Babinet </br> 31100 TOULOUSE",
+    "address" : "70 Rue Jacques Babinet 31100 TOULOUSE",
     "phone" : "05 34 60 31 10",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -31,7 +31,7 @@
 {
     "city" : "Toulouse",
     "localisation": "Toulouse Ouest",
-    "address" : "4 Rue de Caulet </br> 31300 TOULOUSE",
+    "address" : "4 Rue de Caulet 31300 TOULOUSE",
     "phone" : "05 34 55 19 18",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -42,7 +42,7 @@
 {
     "city" : "Brest",
     "localisation": "Brest Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "address" : "34 Quai du Commandant Malbert, 29200 BREST",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -61,8 +61,8 @@
 },
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "localisation": "Brest Université",
+    "address" : "2 Rue des Archives, 29200 BREST",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -71,8 +71,8 @@
 },
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "localisation": "Brest Ouest",
+    "address" : "23 B Rue Victor Eusen, 29200 BREST",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -81,8 +81,8 @@
 },
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "localisation": "Brest Est",
+    "address" : "13 Rue kergoniam, 29200 BREST",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",
@@ -91,8 +91,8 @@
 },
 {
     "city" : "Brest",
-    "localisation": "Toulouse Sud",
-    "address" : "2 Avenue des Crêtes 31520 RAMONVILLE St AGNE",
+    "localisation": "Brest Nord-Ouest",
+    "address" : "Zone Industrielle Kergonan, 20 Rue Gustave Zédé, 29200 BREST",
     "phone" : "05 62 19 19 79",
     "hourlyWeek" : "Lundi au Vendredi : 9h - 12h30 / 13h15 - 17h30",
     "hourlyWeekEnd" : "Samedi : 9h - 13h",

@@ -3,16 +3,44 @@ header{
     justify-content: space-between;
     height: 100px;
     align-items: center;
-    img{
+    @include tablette{
+        flex-wrap: wrap;
+        height: 200px;
+        justify-content: center;
+    }
+    a img{
         height: 80px;
         padding-left: 25px;
+        @include tablette{
+            padding: 0;
+        }
+        @include small-phone{
+            height: 60px;
+        }
     }
     .navHeader{
         display: flex;
+        width: $col4;
+        justify-content: flex-end;
+        @include ecran {
+            width: $col6;
+        }
+        @include tablette{
+            width: $col12;
+            justify-content: center;
+        }
+        @include small-phone{
+            flex-wrap: wrap;
+        }
         .search{
             height: 40px;
-            width: 400px;
+            width: $col7;
             border-radius: 10px;
+            border: none;
+            @include small-phone{
+                width: $col12;
+                border-radius: 0;
+            }            
         }
         .menuAccount{
             text-align: center;
@@ -20,6 +48,15 @@ header{
             padding: 0 25px;
             p{
                 padding-top: 5px;
+                @include tablette{
+                    display: none;
+                    padding: 0;
+                }
+            }
+            i{
+                @include small-phone{
+                    padding-top: 15px;
+                }
             }
         }
     }

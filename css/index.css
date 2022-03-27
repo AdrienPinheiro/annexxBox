@@ -31,7 +31,7 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 15px;
   vertical-align: baseline;
 }
 
@@ -76,21 +76,78 @@ header {
           align-items: center;
 }
 
-header img {
+@media screen and (max-width: 950px) {
+  header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 200px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+header a img {
   height: 80px;
   padding-left: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  header a img {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header a img {
+    height: 60px;
+  }
 }
 
 header .navHeader {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 33.33%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media screen and (max-width: 1285px) {
+  header .navHeader {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  header .navHeader {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .navHeader {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 header .navHeader .search {
   height: 40px;
-  width: 400px;
+  width: 58.33%;
   border-radius: 10px;
+  border: none;
+}
+
+@media screen and (max-width: 500px) {
+  header .navHeader .search {
+    width: 100%;
+    border-radius: 0;
+  }
 }
 
 header .navHeader .menuAccount {
@@ -103,6 +160,19 @@ header .navHeader .menuAccount {
 
 header .navHeader .menuAccount p {
   padding-top: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  header .navHeader .menuAccount p {
+    display: none;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .navHeader .menuAccount i {
+    padding-top: 15px;
+  }
 }
 
 .resultSearch {
@@ -119,9 +189,16 @@ header .navHeader .menuAccount p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
   background-size: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .resultSearch .cardInfoRow {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .resultSearch .cardInfoRow .cardInfo {
@@ -161,9 +238,29 @@ header .navHeader .menuAccount p {
       justify-content: space-around;
 }
 
+@media screen and (max-width: 1285px) {
+  .resultSearch .infoAnnexx .cardDescriptionRow {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
   padding-bottom: 70px;
   width: 16.66%;
+}
+
+@media screen and (max-width: 1285px) {
+  .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+    width: 41.66%;
+    padding: 70px 1%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+    width: 83.33%;
+  }
 }
 
 .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription h3 {
@@ -172,12 +269,18 @@ header .navHeader .menuAccount p {
 }
 
 .resultSearch .notFound {
-  padding-top: 5%;
+  padding-top: 100px;
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .resultSearch .notFound {
+    padding-top: 50px;
+  }
+}
+
 .resultSearch .contactPhone {
-  padding: 15px 0 5% 0;
+  padding: 50px 0;
   text-align: center;
 }
 
@@ -192,6 +295,7 @@ header .navHeader .menuAccount p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .resultSearch .otherBox i {
@@ -218,9 +322,22 @@ header .navHeader .menuAccount p {
   width: 75%;
 }
 
+@media screen and (max-width: 500px) {
+  .resultSearch .topResultSearch h3 {
+    width: 91.66%;
+    font-size: 25px;
+  }
+}
+
 .resultSearch .topResultSearch p {
   padding-bottom: 10px;
   width: 75%;
+}
+
+@media screen and (max-width: 500px) {
+  .resultSearch .topResultSearch p {
+    width: 91.66%;
+  }
 }
 
 .resultSearch .listBox {
@@ -235,11 +352,37 @@ header .navHeader .menuAccount p {
           justify-content: center;
 }
 
+@media screen and (max-width: 1285px) {
+  .resultSearch .listBox {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
 .resultSearch .listBox .cardBox {
   padding: 15px;
   background-color: #FFF;
   width: 16.66%;
   margin: 50px 1% 0 1%;
+}
+
+@media screen and (max-width: 1285px) {
+  .resultSearch .listBox .cardBox {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .resultSearch .listBox .cardBox {
+    width: 83.33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .resultSearch .listBox .cardBox {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
 }
 
 .resultSearch .listBox .cardBox h4 {
@@ -251,7 +394,7 @@ header .navHeader .menuAccount p {
 }
 
 .resultSearch .listBox .cardBox .address {
-  width: 50%;
+  width: 66.66%;
   padding-left: 15px;
 }
 
@@ -283,8 +426,28 @@ header .navHeader .menuAccount p {
   padding: 50px;
 }
 
-.infoLocalisationBox .row li {
-  padding-top: 15px;
+@media screen and (max-width: 950px) {
+  .infoLocalisationBox .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.infoLocalisationBox .row .ulInfo {
+  text-align: center;
+  min-width: 16.66%;
+  margin: 5% 5%;
+}
+
+@media screen and (max-width: 750px) {
+  .infoLocalisationBox .row .ulInfo {
+    width: 58.33%;
+    margin: 5px 0;
+  }
+}
+
+.infoLocalisationBox .row .ulInfo li {
+  padding-top: 50px;
   cursor: pointer;
 }
 
@@ -301,11 +464,35 @@ footer .row {
       justify-content: space-around;
 }
 
-footer h2 {
+@media screen and (max-width: 950px) {
+  footer .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+footer .cardFooter {
+  min-width: 16.66%;
+  margin: 5% 5%;
+}
+
+@media screen and (max-width: 750px) {
+  footer .cardFooter {
+    width: 66.66%;
+    margin: 5% 0;
+    text-align: center;
+  }
+}
+
+footer .cardFooter h2 {
   font-size: 25px;
 }
 
-footer li {
+footer .cardFooter li {
   padding-top: 20px;
+}
+
+footer .cardFooter li i, footer .cardFooter li img {
+  padding-right: 15px;
 }
 /*# sourceMappingURL=index.css.map */

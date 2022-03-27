@@ -1,5 +1,6 @@
 .infoLocalisationBox{
     background-color: #99330025;
+    
     h3{
         text-align: center;
         padding-top: 50px;
@@ -9,9 +10,21 @@
         display: flex;
         justify-content: space-around;
         padding: 50px;
-        li{
-            padding-top: 15px;
-            cursor: pointer;
+        @include tablette{
+            flex-wrap: wrap;
+        }
+        .ulInfo{
+            text-align: center;
+            min-width: $col2;
+            margin: 5% 5%;
+            @include phone{
+                width: $col7;
+                margin: 5px 0;
+            }
+            li{
+                padding-top: 50px;
+                cursor: pointer;
+            }
         }
     }
 }
