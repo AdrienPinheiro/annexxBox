@@ -31,7 +31,7 @@ function searchBox(e){
  * @param  {string} searchValue
  */
 async function loadBox(searchValue){
-    const URL = `annexxBox/json/box.json`;
+    const URL = `/annexxBox/json/box.json`;
     const response = await fetch(`${URL}`)
     const data = await response.json()
         .catch((error) => {
