@@ -58,7 +58,7 @@ async function loadBox(searchValue){
 function showListBox(boxes){
     infoBox.innerHTML = `
     <div class="topResultSearch">
-        <h3>Garde Meuble ${boxes[0].city}</h3>
+        <h1>Garde Meuble ${boxes[0].city}</h1>
         <p>La solution à vos besoins d’espace et de stockage de vos affaires, c’est le garde-meubles ou le self-stockage à ${boxes[0].city}.</p>
 
         <p>Dans un garde meubles, vous même ou votre déménageur transporte vos biens et cartons vers un bâtiment sous surveillance, où vos biens seront stockés dans un boc pendant une période

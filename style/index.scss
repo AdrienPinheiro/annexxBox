@@ -2,8 +2,13 @@
 @import './utils/reset';
 
 @import './pages/header';
-@import './pages/resultSearch';
-@import './pages/infoBox';
 @import './pages/footer';
 
+@import './composant/headerInfo';
+@import './composant/infoAnnexx';
+@import './composant/infoLocalisationBox';
+
+@import './composant/resultSearch';
 @import './composant/cardBox';
+@import './composant/notFound';
+

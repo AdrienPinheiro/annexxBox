@@ -1,0 +1,42 @@
+.listBox{
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    @include ecran{
+        justify-content: space-around;
+    }
+    .cardBox{
+        padding: 15px;
+        background-color: #FFF;
+        width: $col2;
+        margin: 50px 1% 0 1%;
+        @include ecran{
+            width: $col4;
+        }
+        @include phone{
+            width: $col10;
+        }
+        @include small-phone{
+            width: $col12;
+            margin: 50px 0 0 0;
+        }
+        h4{
+            padding: 15px 0;
+        }
+        p{
+            padding-bottom: 10px;
+        }
+        .address{
+            width: $col8;
+            padding-left: 15px;
+        }
+        .phone{
+            padding: 15px 0 10px 0;
+        }
+        .hourly{
+            padding-left: 15px;
+            font-size: 15px;
+        }
+    }
+}

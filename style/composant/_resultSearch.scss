@@ -1,0 +1,26 @@
+.resultSearch{
+    min-height: 354px;
+    .topResultSearch{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            text-align: center;
+            padding: 50px 0;
+            width: $col9;
+            font-size: 25px;
+            @include small-phone{
+                width: $col11;
+                font-size: 25px;
+            }
+        }
+        p{
+            padding-bottom: 10px;
+            width: $col9;
+            @include small-phone{
+                width: $col11;
+            }
+        }            
+    }
+    
+}

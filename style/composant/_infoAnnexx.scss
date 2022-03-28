@@ -1,0 +1,29 @@
+.infoAnnexx{
+    h2{
+        text-align: center;
+        padding: 100px 0;
+        font-size: 40px;
+    }
+    .cardDescriptionRow{
+        display: flex;
+        justify-content: space-around;
+        @include ecran {
+            flex-wrap: wrap;
+        }
+        .cardDescription{
+            padding-bottom: 70px;
+            width: $col2;
+            @include ecran{
+                width: $col5;
+                padding: 70px 1%;
+            }
+            @include phone{
+                width: $col10;
+            }
+            h3{
+                padding-bottom: 25px;
+                font-size: 30px;
+            }
+        }
+    }
+}

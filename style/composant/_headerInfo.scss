@@ -1,0 +1,25 @@
+.cardInfoRow{
+    display: flex;
+    padding: 250px 0;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/demenagement.jpg");
+    background-size: cover;
+    @include phone{
+        flex-wrap: wrap;
+    }
+    .cardInfo{
+        text-align: center;
+        font-size: 25px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25px;
+        color: #FFF;
+        img{
+            padding-bottom: 25px;
+            height: 80px;
+        }
+    }
+}

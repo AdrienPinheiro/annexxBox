@@ -145,7 +145,7 @@ header .navHeader .search {
 
 @media screen and (max-width: 500px) {
   header .navHeader .search {
-    width: 100%;
+    width: 91.66%;
     border-radius: 0;
   }
 }
@@ -175,11 +175,52 @@ header .navHeader .menuAccount p {
   }
 }
 
-.resultSearch {
-  min-height: 354px;
+footer {
+  background-color: #CD4B2080;
 }
 
-.resultSearch .cardInfoRow {
+footer .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 950px) {
+  footer .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+footer .cardFooter {
+  min-width: 16.66%;
+  margin: 5% 5%;
+}
+
+@media screen and (max-width: 750px) {
+  footer .cardFooter {
+    width: 66.66%;
+    margin: 5% 0;
+    text-align: center;
+  }
+}
+
+footer .cardFooter h2 {
+  font-size: 25px;
+}
+
+footer .cardFooter li {
+  padding-top: 20px;
+}
+
+footer .cardFooter li i, footer .cardFooter li img {
+  padding-right: 15px;
+}
+
+.cardInfoRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,19 +230,19 @@ header .navHeader .menuAccount p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/Garde-meuble-cave-box-de-stockage-garage-jestocke-homepage-2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../img/demenagement.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/demenagement.jpg");
   background-size: cover;
 }
 
 @media screen and (max-width: 750px) {
-  .resultSearch .cardInfoRow {
+  .cardInfoRow {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-.resultSearch .cardInfoRow .cardInfo {
+.cardInfoRow .cardInfo {
   text-align: center;
   font-size: 25px;
   border-radius: 30px;
@@ -219,18 +260,18 @@ header .navHeader .menuAccount p {
   color: #FFF;
 }
 
-.resultSearch .cardInfoRow .cardInfo img {
+.cardInfoRow .cardInfo img {
   padding-bottom: 25px;
   height: 80px;
 }
 
-.resultSearch .infoAnnexx h2 {
+.infoAnnexx h2 {
   text-align: center;
   padding: 100px 0;
   font-size: 40px;
 }
 
-.resultSearch .infoAnnexx .cardDescriptionRow {
+.infoAnnexx .cardDescriptionRow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,172 +280,33 @@ header .navHeader .menuAccount p {
 }
 
 @media screen and (max-width: 1285px) {
-  .resultSearch .infoAnnexx .cardDescriptionRow {
+  .infoAnnexx .cardDescriptionRow {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
 }
 
-.resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+.infoAnnexx .cardDescriptionRow .cardDescription {
   padding-bottom: 70px;
   width: 16.66%;
 }
 
 @media screen and (max-width: 1285px) {
-  .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+  .infoAnnexx .cardDescriptionRow .cardDescription {
     width: 41.66%;
     padding: 70px 1%;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .resultSearch .infoAnnexx .cardDescriptionRow .cardDescription {
+  .infoAnnexx .cardDescriptionRow .cardDescription {
     width: 83.33%;
   }
 }
 
-.resultSearch .infoAnnexx .cardDescriptionRow .cardDescription h3 {
+.infoAnnexx .cardDescriptionRow .cardDescription h3 {
   padding-bottom: 25px;
   font-size: 30px;
-}
-
-.resultSearch .notFound {
-  padding-top: 100px;
-  text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-  .resultSearch .notFound {
-    padding-top: 50px;
-  }
-}
-
-.resultSearch .contactPhone {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.resultSearch .otherBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-
-.resultSearch .otherBox i {
-  padding: 25px 0;
-  font-size: 30px;
-}
-
-.resultSearch .topResultSearch {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.resultSearch .topResultSearch h3 {
-  text-align: center;
-  padding: 50px 0;
-  width: 75%;
-}
-
-@media screen and (max-width: 500px) {
-  .resultSearch .topResultSearch h3 {
-    width: 91.66%;
-    font-size: 25px;
-  }
-}
-
-.resultSearch .topResultSearch p {
-  padding-bottom: 10px;
-  width: 75%;
-}
-
-@media screen and (max-width: 500px) {
-  .resultSearch .topResultSearch p {
-    width: 91.66%;
-  }
-}
-
-.resultSearch .listBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-bottom: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media screen and (max-width: 1285px) {
-  .resultSearch .listBox {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-.resultSearch .listBox .cardBox {
-  padding: 15px;
-  background-color: #FFF;
-  width: 16.66%;
-  margin: 50px 1% 0 1%;
-}
-
-@media screen and (max-width: 1285px) {
-  .resultSearch .listBox .cardBox {
-    width: 33.33%;
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .resultSearch .listBox .cardBox {
-    width: 83.33%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .resultSearch .listBox .cardBox {
-    width: 100%;
-    margin: 50px 0 0 0;
-  }
-}
-
-.resultSearch .listBox .cardBox h4 {
-  padding: 15px 0;
-}
-
-.resultSearch .listBox .cardBox p {
-  padding-bottom: 10px;
-}
-
-.resultSearch .listBox .cardBox .address {
-  width: 66.66%;
-  padding-left: 15px;
-}
-
-.resultSearch .listBox .cardBox .phone {
-  padding: 15px 0 10px 0;
-}
-
-.resultSearch .listBox .cardBox .hourly {
-  padding-left: 15px;
-  font-size: 15px;
 }
 
 .infoLocalisationBox {
@@ -451,48 +353,147 @@ header .navHeader .menuAccount p {
   cursor: pointer;
 }
 
-footer {
-  background-color: #CD4B2080;
+.resultSearch {
+  min-height: 354px;
 }
 
-footer .row {
+.resultSearch .topResultSearch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultSearch .topResultSearch h1 {
+  text-align: center;
   padding: 50px 0;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-@media screen and (max-width: 950px) {
-  footer .row {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-footer .cardFooter {
-  min-width: 16.66%;
-  margin: 5% 5%;
-}
-
-@media screen and (max-width: 750px) {
-  footer .cardFooter {
-    width: 66.66%;
-    margin: 5% 0;
-    text-align: center;
-  }
-}
-
-footer .cardFooter h2 {
+  width: 75%;
   font-size: 25px;
 }
 
-footer .cardFooter li {
-  padding-top: 20px;
+@media screen and (max-width: 500px) {
+  .resultSearch .topResultSearch h1 {
+    width: 91.66%;
+    font-size: 25px;
+  }
 }
 
-footer .cardFooter li i, footer .cardFooter li img {
-  padding-right: 15px;
+.resultSearch .topResultSearch p {
+  padding-bottom: 10px;
+  width: 75%;
+}
+
+@media screen and (max-width: 500px) {
+  .resultSearch .topResultSearch p {
+    width: 91.66%;
+  }
+}
+
+.listBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1285px) {
+  .listBox {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+.listBox .cardBox {
+  padding: 15px;
+  background-color: #FFF;
+  width: 16.66%;
+  margin: 50px 1% 0 1%;
+}
+
+@media screen and (max-width: 1285px) {
+  .listBox .cardBox {
+    width: 33.33%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .listBox .cardBox {
+    width: 83.33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .listBox .cardBox {
+    width: 100%;
+    margin: 50px 0 0 0;
+  }
+}
+
+.listBox .cardBox h4 {
+  padding: 15px 0;
+}
+
+.listBox .cardBox p {
+  padding-bottom: 10px;
+}
+
+.listBox .cardBox .address {
+  width: 66.66%;
+  padding-left: 15px;
+}
+
+.listBox .cardBox .phone {
+  padding: 15px 0 10px 0;
+}
+
+.listBox .cardBox .hourly {
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.notFound {
+  padding-top: 100px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .notFound {
+    padding-top: 50px;
+  }
+}
+
+.contactPhone {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.otherBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.otherBox i {
+  padding: 25px 0;
+  font-size: 30px;
 }
 /*# sourceMappingURL=index.css.map */
